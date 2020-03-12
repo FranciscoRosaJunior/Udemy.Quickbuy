@@ -62,7 +62,7 @@ namespace QuickBuy.Web
                 spa.Options.SourcePath = "ClientApp";
 
                 if (env.IsDevelopment())
-                {   //teste
+                {   //teste 2 para aprendizado
                     //spa.UseAngularCliServer(npmScript: "start");
                     spa.UseProxyToSpaDevelopmentServer("http://localhost:4200/");
                 }
